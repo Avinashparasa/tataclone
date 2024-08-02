@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    background-color: #212121;
+    height: 100px;
+    display: flex;
+    color:white;
+    max-width:1600px;
+    position: fixed;
+    top:0;
+    z-index: 1;
+  
+}
+
+.left{
+    width:300px;
+   max-height:100px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.rav{
+    width:88px;
+    height: 54px;
+    background-image: url(tlogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 100;
+}
+.right{
+    width: 1300px;
+    position: relative;
+    left:11.9px;
+    display:flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.right1{
+    height:40px;
+    width:100%;
+    background-color: black;
+    font-size: 13px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.right2{
+    height:60px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left:-20px;
+}
+.inright{
+    display:flex;
+    justify-content: space-around;
+    width:688px;
+    position: relative;
+    right: 80px;
+    
+}
+.right1 p{
+    
+    position: relative;
+    left: 20px;  
+}
+#catego{
+   background-color:#212121;
+   color:white;
+   font-weight: bold;
+   font-size: 14px;
+   border:none;
+   
+}
+#bran{
+    background-color:#212121;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+    border:none;
+ }
+.search{
+    height:40px;
+    width:600px;
+    border:none;
+    background-color:#4a4a4a;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:white;
+}
+.searchbox{
+    border:none;
+    background-color:#4a4a4a;
+    height:40px;
+    width:50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color:white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.all{
+    display: flex;
+}
+.symbol{
+    width:70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.symbol{
+    position: relative;
+    right:70px;
+}
+main{
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+   height: 500px;
+   display: flex;
+   align-items: center;
+    
+    animation-name: avi;
+    animation-duration: 10s;
+    animation-delay: 20s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-timing-function:linear;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+@keyframes avi{
+    0%{
+      background-image: url(gify.gif);
+      background-repeat: no-repeat;
+      background-size:contain;
+      
+    }
+    25%{
+        background-image: url(img4.jpg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        
+    }
+    33.33%{
+        background-image: url(img1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+       
+    }
+    
+    100%{
+        background-image: url(img2.jpg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        
+    }
+   
+}
+
+    
+.down1{
+    background-image: url(down1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 115px;
+    height: 115px;
+}
+.down2{
+    background-image: url(down2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 115px;
+    height: 115px;
+}
+.down3{
+    background-image: url(down3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 115px;
+    height: 115px;
+}
+.down4{
+    background-image: url(down4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 115px;
+    height: 115px;
+}
+.down5{
+    background-image: url(down5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    width: 115px;
+    height: 115px;
+}
+.down6{
+    background-image: url(down6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    width: 115px;
+    height: 115px;
+}
+.down7{
+    background-image: url(down7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 115px;
+    height: 115px;
+}
+.down8{
+    background-image: url(down8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    width: 115px;
+    height: 115px;
+}
+.down9{
+    background-image: url(down9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    width: 115px;
+    height: 115px;
+}
+.down10{
+    background-image: url(down10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    width: 115px;
+    height: 115px;
+}
+.downside{
+    display: flex;
+    justify-content: space-around;
+    height: 115px;
+    width: 100%;
+    
+    
+}
+.method{
+   width: 380px;
+   height: 80px;
+   
+   margin-right: 15px;
+}
+.payment{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.off{
+    width: 236px;
+    height: 321px;
+    
+}
+.offers{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+.tit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tit span{
+       font-size: 40px;
+       font-weight:bold;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tit p{
+    font-size: 20px;
+    font-weight:500;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.off{
+    width: 236px;
+    height: 321px;
+   
+}
+.offers{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+.tit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tit span{
+       font-size: 40px;
+       font-weight:bold;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.deals{
+    margin-top: 150px;
+}
+.tit p{
+    font-size: 20px;
+    font-weight:500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.off{
+    transition: all 0.5s ease-in-out 0.5s;
+}
+.off:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.fsline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.circ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cof{
+    width: 230px;
+    height:320px;
+    
+    transition: all 0.5s ease-in-out 0.5s;
+   
+}
+.cof:hover{
+   transform: scale(1.1);
+    cursor: pointer;
+}
+.fsline span{
+    font-size: 40px;
+       font-weight:bold;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fsline p{
+    font-size: 16px;
+    font-weight:bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rr{
+    min-width:240px ;
+    height:320px ;
+   
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.ah span{
+    
+      font-size: 40px;
+      font-weight:bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.ah{
+    margin-top: 80px; text-align: center;
+}
+.dh{
+    display: flex;
+    overflow-x: scroll;
+    height:500px;
+   overflow-y: hidden;
+}
+footer{
+   
+    width:100%;
+    height: 900px;
+   
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trust{
+    width: 588px;
+    height: 114px;
+   
+    text-align: center;
+}
+.foot{
+    width:100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+.tatamarketplace h6{
+    font-weight: bold;
+}
+.customerservice h6{
+    font-weight: bold;
+}
+.mytatacliq h6{
+    font-weight: bold;
+}
